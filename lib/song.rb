@@ -1,3 +1,5 @@
+require "pry"
+
 class Song
   attr_accessor :name, :artist_name
   @@all = []
@@ -35,6 +37,13 @@ def self.alphabetical
   @@all.sort_by{|x| x.name}
 end 
 
+def self.new_from_filename(filename)
+  filename = []
+  @@adll.each do |name, artist_name|
+    binding.pry 
+ end  
+  
+end 
 
   def self.all
     @@all
