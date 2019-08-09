@@ -46,8 +46,10 @@ end
 
 def self.create_from_filename(file_name)
 @@all << self.new_from_filename(file_name)
-#@@all << new_song 
+end 
 
+def self.destroy_all 
+  @@all.clear
 end 
 
   def self.all
