@@ -39,7 +39,7 @@ end
 
 def self.new_from_filename(filename)
   filename = []
-  @@adll.each do |name, artist_name|
+  @@all.each do |name, artist_name|
     binding.pry 
  end  
   
