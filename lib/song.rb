@@ -43,7 +43,6 @@ def self.new_from_filename(file_name)
   new_song.artist_name = file_name.split(" - ")[0]
   new_song
     #binding.pry 
- end  
   
 end 
 
