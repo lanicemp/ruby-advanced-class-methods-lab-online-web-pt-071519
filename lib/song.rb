@@ -49,7 +49,7 @@ def self.create_from_filename(file_name)
 end 
 
 def self.destroy_all 
-  @@all.clear
+self.all.clear 
 end 
 
   def self.all
