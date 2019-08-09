@@ -21,15 +21,15 @@ def self.create_by_name(name)
 end 
 
 def self.find_by_name(name)
-  
-  @@all.each do |song|
-    if song.name == name 
-      return song 
-    else 
+ @@all.find{|song| song.name == name} 
+  #@@all.each do |song|
+    #if song.name == name 
+     # return song 
+   # else 
      #return nil 
-    end 
-  end 
-  song 
+    #end 
+ # end 
+ # song 
 end 
 
 
