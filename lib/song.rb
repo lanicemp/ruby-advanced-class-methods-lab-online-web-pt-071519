@@ -42,8 +42,11 @@ def self.new_from_filename(file_name)
   new_song.name = file_name.split(" - ")[1].split(".")[0]
   new_song.artist_name = file_name.split(" - ")[0]
   new_song
-    #binding.pry 
-  
+end 
+
+def self.create_from_filename(file_name)
+self.new_from_filename
+
 end 
 
   def self.all
