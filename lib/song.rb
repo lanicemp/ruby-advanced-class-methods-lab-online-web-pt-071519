@@ -38,8 +38,7 @@ def self.alphabetical
 end 
 
 def self.new_from_filename(filename)
-  filename = []
-  @@all.each do |name, artist_name|
+  
     binding.pry 
  end  
   
