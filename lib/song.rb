@@ -24,14 +24,10 @@ def self.find_by_name(name)
  @@all.find{|song| song.name == name} 
   #@@all.each do |song|
     #if song.name == name 
-     # return song 
-   # else 
-     #return nil 
-    #end 
- # end 
- # song 
+     # return song
 end 
 
+def self.find_or_create_by_name(name)
 
 
   def self.all
